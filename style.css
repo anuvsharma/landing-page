@@ -3,13 +3,14 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
+ 
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 0px 150px;
     background-color: #1f2937;
     height: 72px;
 }
@@ -28,6 +29,55 @@ body {
     font-size: 24px;
 }
 
+.hero{
+    flex: 1 0 auto;
+}
+
+.cards{
+    flex: 1 0 auto;
+}
+
+.quotes{
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.action{
+    display: flex;
+    flex: 1 0 auto;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px 150px;
+    padding: 20px 20px;
+}
+
+.action-text{
+    color: #f9faf8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.action-text-para{
+    font-size: 20px;
+}
+
+.action-text-header{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+button{
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
 .footer {
     margin-top: auto;
     display: flex;
@@ -35,10 +85,10 @@ body {
     justify-content: center;
     background-color: #1f2937;
     color: white;
-    height: 50px;
-  }
+    height: 72px;
+}
 
-  li {
+li {
     list-style-type: none;
 }
   
